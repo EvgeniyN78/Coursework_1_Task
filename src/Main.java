@@ -9,10 +9,10 @@ public class Main {
         System.out.println();
 
         for (int i = 0; i < library.length; i++) {
-            if (i % 2 != 0) {
-                System.out.println(library[i] + ".");
-            } else {
+            if (i % 2 == 0) {
                 System.out.print("\"" + library[i] + "\" ");
+            } else {
+                System.out.println(library[i] + ".");
             }
         }
     }
